@@ -1,3 +1,4 @@
+[![Django-app workflow](https://github.com/Ghibliliker/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Ghibliliker/yamdb_final/actions/workflows/yamdb_workflow.yml)
 ## Проект YaMDb
 
 Где вы ещё видели такую возможность, как написать отзыв на ваш любимый фильм или другое культурное произведение?!
