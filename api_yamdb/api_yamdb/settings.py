@@ -124,4 +124,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 
 EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 
-EMAIL_ADMIN = 'admin@yamdb.yandex.ru'
+EMAIL_ADMIN = 'pavel.maslo2015@yandex.com'

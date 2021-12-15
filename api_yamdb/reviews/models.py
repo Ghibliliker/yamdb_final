@@ -1,8 +1,8 @@
 from django.core.validators import RegexValidator
 from django.db import models
 from django.db.models.deletion import CASCADE
-
 from users.models import User
+
 from .validators import raiting_validator, year_validator
 
 SLUG_REGEX = RegexValidator(r'^[-a-zA-Z0-9_]+$', 'неподходящий "slug"')

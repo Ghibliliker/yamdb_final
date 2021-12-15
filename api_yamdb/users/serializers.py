@@ -3,8 +3,8 @@ from rest_framework import serializers
 from rest_framework.exceptions import ValidationError
 from rest_framework.validators import UniqueValidator
 
-from .models import User
 from .confirmation_code import create_code, send_email_with_confirmation_code
+from .models import User
 
 
 class UsersSerializer(serializers.ModelSerializer):

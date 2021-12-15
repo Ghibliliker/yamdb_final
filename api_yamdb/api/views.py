@@ -3,14 +3,14 @@ from django.shortcuts import get_object_or_404
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import filters, viewsets
 from rest_framework.pagination import LimitOffsetPagination
-
 from reviews.models import Category, Genre, Review, Title
+
+from .filters import TitlesFilter
+from .mixins import CreateListDestroyViewSet
 from .permissions import AdminOrReadOnly, ReviewCommentPermission
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer,
                           TitleAdminSerializer, TitleSerializer)
-from .mixins import CreateListDestroyViewSet
-from .filters import TitlesFilter
 
 
 class GenreViewSet(CreateListDestroyViewSet):
