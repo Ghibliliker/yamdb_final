@@ -1,4 +1,3 @@
-[GITHUB-BADGE](https://github.com/Ghibliliker/yamdb_final/workflows/yamdb_workflow.yml/badge.svg)
 ## Проект YaMDb
 
 Где вы ещё видели такую возможность, как написать отзыв на ваш любимый фильм или другое культурное произведение?!
